@@ -1,0 +1,7 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^object\/(.*)$ redirection.php [L]
+	RewriteRule ^data\/(.*).html$ redirection.php [L]
+	RewriteRule ^data\/(.*).rdf$ rdf.php [L]
+</IfModule>

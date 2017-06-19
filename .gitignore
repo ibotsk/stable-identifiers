@@ -1,0 +1,5 @@
+#ignore database access credentials
+credentials.php
+
+#ignore netbeans project files
+nbproject
