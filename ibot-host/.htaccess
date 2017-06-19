@@ -1,0 +1,8 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^data\/(.*)$ http://dataflos.sav.sk:8080/herbarium/data/$1 [R=303]
+	RewriteRule ^object\/(.*)$ http://dataflos.sav.sk:8080/herbarium/object/$1 [R=303]
+	#RedirectMatch ^data\/(.*)$ http://dataflos.sav.sk/herbarium/data/$1
+	#RedirectMatch ^object\/(.*)$ http://dataflos.sav.sk/herbarium/object/$1
+</IfModule>

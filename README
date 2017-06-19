@@ -1,4 +1,12 @@
 -----------------
+--- DEPLOYMENT --
+-----------------
+Put all files in root folder on server. Location on server has to have Rewriting allowed.
+
+Directory ibot-host contains .htaccess. Modify rules to point to the path of redirection.php.
+Place this .htaccess into ibot/herbarium folder.
+
+-----------------
 ----- NOTES -----
 -----------------
 

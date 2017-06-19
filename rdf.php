@@ -11,7 +11,7 @@ require_once './credentials.php';
 // ----------------
 // --- settings ---
 // ----------------
-$server = 'localhost';
+$server = HOST;
 $user = USERNAME;
 $password = PASSWORD;
 $db = DB;

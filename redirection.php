@@ -22,7 +22,7 @@ $rdf = "application/rdf+xml";
 $contentTypes = $html . ";q=1.0," . $rdf . ";q=0.999";
 
 // database connection settings
-$server = 'localhost'; //'147.213.82.11';
+$server = HOST;
 $user = USERNAME;
 $password = PASSWORD;
 $db = DB;
